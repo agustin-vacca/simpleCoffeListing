@@ -1,0 +1,104 @@
+div .container{
+    border-radius: 1rem;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+div .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 1rem;
+    position: relative;
+}
+
+.card .image{
+    border-radius: 1rem;
+    /* width: 206px;
+    height: 133px; */
+    width: 100%;
+}
+
+.card .popular {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+
+    background-color: #F6C768;
+    border-radius: .7rem;
+    z-index: 2;
+
+    padding: 2px 9px 2px 9px ;
+
+    color: #1B1D1F;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.card .description{
+    display: flex;
+    flex-direction: column;
+    /* grid-column: 1 / 3; */
+
+    width: 100%;
+}
+
+.description .desFirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description .name {
+    color: #FEF7EE;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.description .price {
+    padding: 3px;
+
+    border-radius: .3rem;
+    background-color: #BEE3CC;
+
+    color: #111315;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.desSecond {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    gap: 5px;
+}
+
+.desSecond .rating {
+    text-decoration: none;
+    color: #FEF7EE;
+    font-size: 12px;
+}
+
+.desSecond .votes {
+    color: #6F757C;
+    font-size: 12px;
+}
+
+.desSecond .sold{
+    color: #ED735D;
+    font-size: 12px;
+    
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+}

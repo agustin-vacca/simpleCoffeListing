@@ -1,0 +1,34 @@
+div button{
+    padding: 1px;
+    
+    background: none;
+    border: none;
+    
+
+    color: #FEF7EE;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+div .search {
+    display: flex;
+    gap: 2rem;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search .active {
+    padding: 11px;
+    
+    color: #FEF7EE;
+    font-size: 14px;
+    font-weight: 700;
+  
+    background-color:#6F757C; 
+    border-radius: .5rem;
+
+  }
+
+
